@@ -1,0 +1,50 @@
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  section .section-wrap {
+    width: 500px;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .3);
+  }
+  section .section-wrap h3{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+    padding: 15px ;
+  }
+  section .section-wrap .form-wrap{
+    text-align: center;
+  }
+  section .section-wrap .form-wrap .input-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  section .section-wrap .form-wrap .input-wrap .label{
+    display: none;
+  }
+  section .section-wrap .form-wrap .input-wrap .checkbox{
+    display: inline;
+  }
+  section .section-wrap .form-wrap .input{
+    width: 80%;
+    padding: 15px;
+    font-size: 1rem;
+    margin: 10px auto;
+  }
+  section .section-wrap .form-wrap .active{
+    color: red;
+  }
+  section .section-wrap .form-wrap .button-wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  section .section-wrap .form-wrap .button-wrap > button{
+    margin: 15px 20px;
+    height: 45px;
+  }
+  
+  
